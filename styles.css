@@ -109,6 +109,10 @@ h3{
   .project-desciption {
     padding: 120px 60px;
   }
+
+  .social-links i {
+    font-size: 2rem; 
+}
   
   @media (max-width: 900px) {
     h1 {
