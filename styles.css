@@ -21,16 +21,16 @@
   }
   
   h1 {
-    font-size: 96px;
+    font-size: 93px;
     line-height: 1.5;
   }
   
   h2 {
-    font-size: 64px;
+    font-size: 62px;
   }
 
 h3{
-    font-size: 48px;
+    font-size: 45px;
 }
   
   p {
@@ -51,11 +51,6 @@ h3{
     margin: 0;
     color: #272142;
   }
-
-  .welcome {
-  font-size: 15px;
-  }
-  
   .intro h2 {
     font-family: var(--heading-font-family);
     font-weight: normal;
