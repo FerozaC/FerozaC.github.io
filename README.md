@@ -1,6 +1,6 @@
 # Feroza Chishty's Portfolio
 
-This project is hosted on GitHub Pages. You can view it [here](https://ferozac.github.io/)..
+This project is hosted on GitHub Pages. You can view it [here](https://ferozac.github.io/).
 
 Welcome to my portfolio website! I am Feroza Chishty, a Front-End Developer based in South Africa. This repository contains the source code for my personal portfolio, where you can learn more about my work, skills, and how to get in touch with me.
 
@@ -9,7 +9,7 @@ Welcome to my portfolio website! I am Feroza Chishty, a Front-End Developer base
 - [Feroza Chishty's Portfolio](#feroza-chishtys-portfolio)
   - [Table of Contents](#table-of-contents)
   - [Project Overview](#project-overview)
-    - [Pages](#pages)
+  - [Pages](#pages)
   - [Technologies Used](#technologies-used)
   - [Features](#features)
   - [Setup Instructions](#setup-instructions)
@@ -62,11 +62,6 @@ Edit the HTML files (index.html, about.html, contact.html, etc.) to make changes
 Update the CSS in styles.css to modify the appearance.
 Add JavaScript code for additional functionality if needed.
 Contact
-For any inquiries or to get in touch with me, you can reach me through the contact form on the website or via the following links:
-
-GitHub Profile
-Instagram Profile
-Twitter Profile
-LinkedIn Profile
-License
+For any inquiries or to get in touch with me, you can reach me through the contact form on the website. This is my [Github](https://github.com/FerozaC) profile.
+ 
 This project is open-sourced under the MIT License.
