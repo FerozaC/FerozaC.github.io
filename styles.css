@@ -51,6 +51,10 @@ h3{
     margin: 0;
     color: #272142;
   }
+
+  .welcome {
+  font-size: 15px;
+  }
   
   .intro h2 {
     font-family: var(--heading-font-family);
