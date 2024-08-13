@@ -179,7 +179,7 @@ h3{
   
   nav a:hover,
   nav li.active a {
-    color: var(--branding-color);
+    color: var(--secondary-color);
   }
   
   footer {
