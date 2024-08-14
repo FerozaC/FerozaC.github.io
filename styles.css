@@ -35,10 +35,12 @@ h3{
   
   p {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 30px;
   }
-  
+  ul {
+    font-size: 20px; 
+}  
   .intro {
     background: var(--secondary-color);
     text-align: center;
