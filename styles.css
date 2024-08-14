@@ -35,11 +35,11 @@ h3{
   
   p {
     font-weight: normal;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 30px;
   }
   ul {
-    font-size: 20px; 
+    font-size: 18px; 
 }  
   .intro {
     background: var(--secondary-color);
