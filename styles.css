@@ -126,7 +126,13 @@ h3{
     }
   
     .intro {
-      padding: 70px 20px;
+      display: flex;
+    justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      background: var(--secondary-color);
+      text-align: center;
+      padding: 100px 20px;
     }
   
     .content {
@@ -290,5 +296,27 @@ h3{
   footer .social-links a:hover {
     color: white;
     background: var(--branding-color);
+  }
+
+  @media (min-width: 992px) {
+    .intro {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+    }
+    
+    .intro .intro-text {
+      flex: 1;
+      padding-right: 30px;
+    }
+    
+    .intro .intro-image {
+      flex: 1;
+    }
+  }
+  
+  .intro-image img {
+    max-width: 100%;
+    height: auto;
   }
   
