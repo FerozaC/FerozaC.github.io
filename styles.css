@@ -62,7 +62,9 @@ h3{
     line-height: 1.5;
     font-size: 24px;
   }
-  
+  .intro-image {
+    margin-right: -10px;
+  }
   .content-container {
     padding: 160px 20px;
   }
