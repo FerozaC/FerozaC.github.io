@@ -134,7 +134,7 @@ body.cv-background::before {
   position: absolute; 
   top: 150px;
   right: 0; 
-  width: 50%; 
+  width: 46%; 
   height: 100%;
   background: url('./images/cv_page_background.svg') no-repeat center center;
   background-size:contain; 
