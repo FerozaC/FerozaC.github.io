@@ -323,7 +323,6 @@ body.cv-background::before {
   }
 
   body.cv-background::before {
-    display: none; 
     position: fixed;
 }
   @media (min-width: 992px) {
