@@ -41,14 +41,11 @@ h3{
   ul {
     font-size: 17px; 
 }  
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: var(--secondary-color);
-  text-align: center;
-  padding: 100px 20px;
-}
+  .intro {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 100px 20px;
+  }
   
   .intro p {
     font-size: 36px;
@@ -62,9 +59,7 @@ h3{
     line-height: 1.5;
     font-size: 24px;
   }
-  .intro-image {
-    margin-right: -10px;
-  }
+  
   .content-container {
     padding: 160px 20px;
   }
@@ -228,6 +223,7 @@ h3{
     background: var(--branding-color);
   }
   
+
   @media (max-width: 900px) {
     h1 {
       font-size: 40px;
@@ -295,22 +291,4 @@ h3{
     color: white;
     background: var(--branding-color);
   }
-
-  @media (min-width: 992px) {
-    .intro {
-      flex-direction: row;
-      justify-content: space-between;
-      text-align: left;
-    }
-    
-    .intro .intro-text {
-      flex: 1;
-      padding-right: 30px;
-    }
-    
-    .intro .intro-image {
-      flex: 1;
-    }
-  }
-  
   
