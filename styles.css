@@ -50,10 +50,9 @@ h3{
   padding: 100px 20px;
 }
   .intro img {
-    margin-left: 20px; /* Moves the image to the right */
-    margin-right: auto; /* Ensures there's space on the right side */
-}
-  
+    margin-left: 20px; 
+    margin-right: auto; 
+}  
   .intro p {
     font-size: 36px;
     font-weight: bold;
@@ -153,10 +152,28 @@ body.cv-background::before {
     }
   
     .intro {
-      flex-direction: row;
-      justify-content: space-between;
-      text-align: left;
+      flex-direction: column !important;
+      text-align: center;
     }
+    .intro-image {
+      margin-top: 20px;
+    }
+    .intro-image img {
+      width: 250px;
+      margin: 0 auto;
+    }
+    .intro-text p, .intro-text h1, .intro-text h2, .intro-text .welcome {
+      text-align: center;
+    }
+    .intro-text div {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .intro-text .btn {
+      width: auto;
+    }
+  }
   
     .content {
       text-align: center;
@@ -167,7 +184,7 @@ body.cv-background::before {
       padding: 0;
       text-align: center;
     }
-  }
+  
  
   .illustration .bottom {
   text-align: center;
