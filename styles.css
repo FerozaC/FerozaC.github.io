@@ -150,7 +150,10 @@ body.cv-background::before {
     h2 {
       font-size: 44px;
     }
-  
+    .custom-heading {
+      font-size: 30px;
+      margin-top: -120px;
+  }
     .intro {
       flex-direction: column !important;
       align-items: center; 
