@@ -141,6 +141,24 @@ body.cv-background::before {
   z-index: -1; 
 }
 
+.custom-heading {
+  font-size: 2rem; 
+  margin-top: 10px; 
+  text-align: center; 
+}
+
+@media (max-width: 768px) {
+  .custom-heading {
+      font-size: 1.2rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-heading {
+      font-size: 1.25rem; 
+  }
+}
+
   @media (max-width: 890px) {
     h1 {
       font-size: 44px;
@@ -151,7 +169,7 @@ body.cv-background::before {
       font-size: 44px;
     }
     .custom-heading {
-      font-size: 30px;
+      font-size: 0px;
       margin-top: -120px;
   }
     .intro {
